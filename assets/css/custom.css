@@ -1,0 +1,190 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-color:rgb(243, 245, 248);
+}
+.navbar .navbar-inner{
+	background: #fff;
+	border: 0px solid #fff;
+	-webkit-box-shadow: 0 0px 4px rgba(255, 255, 255, 0.065);
+}
+.navbar .nav>li>a{
+	padding: 9px 20px 7px;
+	text-shadow: none;
+	text-transform: uppercase;
+	color: #22262f;
+	font-size: 15px;
+}
+.nav .signup {
+	box-shadow: 0 0 0 2px #dee0e5 inset;
+	border-radius: 4px;
+}
+.navbar .nav.pull-right{
+	padding: 2.25%;
+}
+.navbar .nav>li>a:hover {
+	color: #60ABD0;
+}
+.navbar .container{
+	padding: 0.5%;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.main {
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+#signup {
+	width: 1170px;
+}
+#signup-title{
+	font-weight: 200;
+	color: #2F3133;	
+	font-family: 'proxima nova','Helvetica Neue',Helvetica,sans-serif;
+}
+#signup-subtitle{
+	font-size: 18px;
+	color: rgb(148, 157, 164);
+}
+.signup-left{
+	border-right: 1px solid rgba(0,0,0,0.1);
+	text-align: right;
+	padding-right: 5%;
+	min-height: 260px;
+}
+.signup-right{
+	padding-left: 4%;
+}
+.signup-form>input{
+	padding-bottom: 10%;
+	padding-top: 10%;
+}
+.signup-input{
+	margin-bottom: 2.5%;
+	margin-top: 2.5%;
+
+
+}
+.signup-input>input{
+	padding: 2.5%;
+	width: 400px;
+
+	background-color: #fff;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border linear .2s,box-shadow linear .2s;
+	-moz-transition: border linear .2s,box-shadow linear .2s;
+	-o-transition: border linear .2s,box-shadow linear .2s;
+	transition: border linear .2s,box-shadow linear .2s;
+}
+.signup-input>button{
+	padding: 2.5%;
+	width: 400px;
+}
+.about{
+	padding-top:5%;
+	padding-bottom:5%;
+}
+.about>h2{
+	font-weight:300;
+	color: rgb(116, 122, 128);	
+}
+.about-kanan, .about-kiri{
+	padding: 2.5%;
+	text-align: center;
+}
+.about-tengah{
+	padding: 2.5%;
+	text-align: center;
+	border-right: 1px solid rgba(0,0,0,0.1);
+	border-left: 1px solid rgba(0,0,0,0.1);
+}
+.about-kanan>img, .about-tengah>img, .about-kiri>img{
+	margin-bottom: 4%;
+	width: 170px;
+	height: 170px;
+	border-radius: 240px;
+}
+.event{
+	padding: 0.5%;
+	background-color: #fff;
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+	background: #fff;
+	border: 1px solid;
+	border-color: #e9eaed #dfe0e4 #d0d1d5;
+	-webkit-border-radius: 3px;
+}
+#event-title {
+	font-size: 28px;
+	padding: 0;
+	font-weight: bolder;
+}
+.page-header{
+	border-bottom: 1px solid #58ADD2;
+}
+.pagination ul>li>a:hover, .pagination ul>li>a:focus, .pagination ul>.active>a, .pagination ul>.active>span{
+	background-color: #5BC1E8;
+}
+.detail-event {
+	width: 1170px;
+}
+.poster {
+	width: 60%;
+	margin: 0;
+}
+.deskripsi-event {
+	width: 35%;
+}
+.deskripsi-event {
+	background-color: #fff;
+}
+.event-box {
+	background-color: #fff;
+	padding: 2%;
+	margin: 1%;
+}
+.btn-twitter {
+	color: #fff;
+	background-color: #55acee;
+	border-color: #1689e0;
+	background-image: linear-gradient(to bottom,#55acee,#55acee);
+}
+.btn-twitter:hover {
+	color: #55acee;
+	background-color: #55acee;
+}
+.btn-facebook {
+	color: #fff;
+	background-color: #3b5999;
+	border-color: #263962;
+	background-image: linear-gradient(to bottom,#3b5999,#3b5999);
+}
+.btn-facebook:hover {
+	color: #E1E2E2;
+	background-color: #3B5999;
+}
+#background {
+	width: 100%;
+	margin-bottom: 4%;
+}
+.box-event {
+	background: #fff;
+	border: 1px solid;
+	border-color: #e9eaed #dfe0e4 #d0d1d5;
+	-webkit-border-radius: 3px;
+}
+#footer {
+	width:100%;
+	height:100%;
+	bottom:0;
+	left:0;
+	background:#ee5;
+}
